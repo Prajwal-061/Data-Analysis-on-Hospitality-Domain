@@ -1,6 +1,7 @@
 🏨 Hotel Booking Data Analysis
 
-📌 Project Overview
+📌 Project Overview:
+
 This project focuses on exploring, cleaning, transforming, and analyzing hotel booking datasets to uncover patterns, detect anomalies, and generate actionable business insights.
 The dataset contains multiple CSV files with information about hotel properties, bookings, room categories, and aggregated booking data.
 Through data exploration, cleaning, transformation, and visualization, this project answers key business questions such as:
@@ -9,7 +10,8 @@ Do weekends perform better than weekdays?
 Which months generate the most revenue?
 Are there anomalies in bookings or revenue records?
 
-📂 Dataset Description
+📂 Dataset Description:
+
 The analysis uses the following CSV files (stored in the datasets folder):
 fact_bookings.csv – Detailed booking transactions (dates, guests, revenue, etc.).
 fact_aggregated_bookings.csv – Aggregated booking and capacity data.
@@ -46,22 +48,26 @@ dim_date.csv – Calendar reference for mapping dates.
    Revenue per city.
    Month-by-month revenue trends.
 
-📊 Key Findings
+📊 Key Findings:
+
 Certain room categories consistently outperform others in occupancy.
 Weekends generally have higher occupancy rates than weekdays.
 Peak revenue months vary by city, with some seasonal trends.
 Outlier bookings existed with unrealistic revenue figures, requiring data cleaning.
 
-📈 Technologies Used
+📈 Technologies Used:
+
 Python
 Pandas – Data manipulation and analysis.
 Matplotlib – Data visualization.
 Jupyter Notebook – Interactive analysis environment.
 
-📌 Future Improvements
+📌 Future Improvements:
+
 Automate data cleaning pipeline for new datasets.
 Create an interactive Streamlit dashboard for live hotel performance monitoring.
 Add forecasting models for revenue and occupancy.
 
-📜 License
+📜 License:
+
 This project is for educational and analytical purposes.
