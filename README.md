@@ -71,3 +71,5 @@ Add forecasting models for revenue and occupancy.
 📜 License:
 
 This project is for educational and analytical purposes.
+
+THis is a trial.
